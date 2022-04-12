@@ -24,6 +24,10 @@ struct ContentView: View {
                     } label: {
                         Text("Design et navigation 2")
                     }
+                    
+                    NavigationLink(destination: Authentification()) {
+                        Text("Intégration avec une base de donnée")
+                    }
 
                    
                     
