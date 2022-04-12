@@ -19,8 +19,14 @@ struct ContentView: View {
                         destination: designView()) {
                         Text("Design et Navigation")
                     }
+                    NavigationLink {
+                        designView2()
+                    } label: {
+                        Text("Design et navigation 2")
+                    }
+
                    
-                    Text("Base de donnée Firebase")
+                    
                 } header: {
                     Text("Base d'une application")
                 }

@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		F69CAEA928059DF90094EFF4 /* designView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69CAEA828059DF80094EFF4 /* designView.swift */; };
+		F69CAEAB2805AA640094EFF4 /* designView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69CAEAA2805AA640094EFF4 /* designView2.swift */; };
+		F69CAEAD2805B1CC0094EFF4 /* detailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69CAEAC2805B1CC0094EFF4 /* detailView.swift */; };
+		F69CAEAF2805B22A0094EFF4 /* Seasons.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69CAEAE2805B22A0094EFF4 /* Seasons.swift */; };
 		F6D9B5E02805675000755389 /* firstApplication12042022App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D9B5DF2805675000755389 /* firstApplication12042022App.swift */; };
 		F6D9B5E22805675000755389 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D9B5E12805675000755389 /* ContentView.swift */; };
 		F6D9B5E42805675900755389 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6D9B5E32805675900755389 /* Assets.xcassets */; };
@@ -37,6 +40,9 @@
 
 /* Begin PBXFileReference section */
 		F69CAEA828059DF80094EFF4 /* designView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = designView.swift; sourceTree = "<group>"; };
+		F69CAEAA2805AA640094EFF4 /* designView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = designView2.swift; sourceTree = "<group>"; };
+		F69CAEAC2805B1CC0094EFF4 /* detailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailView.swift; sourceTree = "<group>"; };
+		F69CAEAE2805B22A0094EFF4 /* Seasons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seasons.swift; sourceTree = "<group>"; };
 		F6D9B5DC2805675000755389 /* firstApplication12042022.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = firstApplication12042022.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6D9B5DF2805675000755389 /* firstApplication12042022App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstApplication12042022App.swift; sourceTree = "<group>"; };
 		F6D9B5E12805675000755389 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -106,6 +112,9 @@
 				F6D9B5E52805675900755389 /* Preview Content */,
 				F6D9B64C2805818D00755389 /* secondeView.swift */,
 				F69CAEA828059DF80094EFF4 /* designView.swift */,
+				F69CAEAA2805AA640094EFF4 /* designView2.swift */,
+				F69CAEAC2805B1CC0094EFF4 /* detailView.swift */,
+				F69CAEAE2805B22A0094EFF4 /* Seasons.swift */,
 			);
 			path = firstApplication12042022;
 			sourceTree = "<group>";
@@ -268,7 +277,10 @@
 				F69CAEA928059DF90094EFF4 /* designView.swift in Sources */,
 				F6D9B64D2805818D00755389 /* secondeView.swift in Sources */,
 				F6D9B5E22805675000755389 /* ContentView.swift in Sources */,
+				F69CAEAD2805B1CC0094EFF4 /* detailView.swift in Sources */,
 				F6D9B5E02805675000755389 /* firstApplication12042022App.swift in Sources */,
+				F69CAEAB2805AA640094EFF4 /* designView2.swift in Sources */,
+				F69CAEAF2805B22A0094EFF4 /* Seasons.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
