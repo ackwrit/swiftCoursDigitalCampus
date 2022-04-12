@@ -15,11 +15,26 @@ struct ContentView: View {
         NavigationView {
             List {
                 Section {
-                    Text("coucou")
-                    Text("Deuxième coucou")
+                    NavigationLink(
+                        destination: designView()) {
+                        Text("Design et Navigation")
+                    }
+                   
+                    Text("Base de donnée Firebase")
+                } header: {
+                    Text("Base d'une application")
                 }
+
+            
+                Section {
+                    Text("Animation")
+                    Text("Quatrième exercice")
+                }
+               
             }
-            .listStyle( .plain)
+            .listStyle( .insetGrouped)
+            .navigationTitle("Mon cours Swift")
+            .navigationBarItems(trailing: EditButton())
           
         }
        
@@ -29,6 +44,10 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Group {
+            ContentView()
+           
+           
+        }
     }
 }
